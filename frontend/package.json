@@ -16,6 +16,7 @@
         "react-error-overlay": "6.0.9"
     },
     "scripts": {
+        "start": "react-scripts start",
         "dev:frontend": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",

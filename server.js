@@ -11,6 +11,8 @@ const {
   updateUser,
 } = require("./handlers");
 
+const port=process.env.PORT||8000;
+
 // placing the users in memory | a poor man's database ;)
 // any changes to the this data will persist only until the server restarts.
 const users = require("./data/users.json");
@@ -38,6 +40,8 @@ app.delete("/api/users/:id", passUsersAlong, deleteUser);
 app.patch("/api/friends", passUsersAlong, handleFriends);
 app.post("/api/signin", passUsersAlong, getUserByName);
 
+app.use(express.static("frontend/build"))
+
 // this is our catch all endpoint.
 app.get("*", (req, res) => {
   res.status(404).json({
@@ -47,4 +51,4 @@ app.get("*", (req, res) => {
 });
 
 // Node spins up our server and sets it to listen on port 8000.
-app.listen(8000, () => console.log(`Listening on port 8000`));
+app.listen(port, () => console.log(`Listening on ${port}`));
