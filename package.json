@@ -6,9 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "dev:backend": "nodemon server.js",
-
-    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
-
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Scott Morin <scott@journeyedu.co>",
   "license": "MIT",
@@ -17,5 +15,8 @@
     "moment": "^2.24.0",
     "morgan": "^1.9.1",
     "nodemon": "^2.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0 <16.14.2"
   }
 }
