@@ -108,25 +108,29 @@ The entire build of the FE is up to you.
 
 ### Homepage
 
-<img src="./_screenshots/homepage_3.png" />
+![homepage_3](https://user-images.githubusercontent.com/91036770/217148808-60b3c477-cf0b-4477-9610-c5b6df627f5e.png)
+
 
 ### The Profile Page
 
-<img src="./_screenshots/profile_3.png" />
+![profile_3](https://user-images.githubusercontent.com/91036770/217149000-bf6e1e26-124b-493a-9d74-83a878c0908d.png)
+
 
 ### The Sign in page
 
-<img src="./_screenshots/signin_2.png" />
+![signin_2](https://user-images.githubusercontent.com/91036770/217149032-f2c19575-d603-4328-bc41-5e294180dd27.png)
+
 
 ### A link to the signin page in the header
 
 We should have a link to the signin page in the header.
 
-<img src="./_screenshots/signin_button.png" />
+![signin_signedin](https://user-images.githubusercontent.com/91036770/217149170-bfd4d67a-fe7e-4de1-9519-f32a46f9ea79.png)
+
 
 When the user is signed in, the "sign in" link should be replaced by a greeting and the user's name.
 
-<img src="./_screenshots/signin_signedin.png" />
+![signin_signedin](https://user-images.githubusercontent.com/91036770/217149170-bfd4d67a-fe7e-4de1-9519-f32a46f9ea79.png)
 
 While you're in the header, it would be good to turn the title into a link to the homepage.
 
@@ -135,13 +139,13 @@ While you're in the header, it would be good to turn the title into a link to th
 - Faces on the homepage should link to that person's profile page.
 - Let's also add a little UX tweak on hover. Give the image some sort of effect on hover.
 
-<img src="./_screenshots/home-links.gif" />
+![home-links (1)](https://user-images.githubusercontent.com/91036770/217149236-a951fe60-754e-42a6-bc7b-ce4719f5e3a3.gif)
 
 ### My Friends!
 
 When a user is signed in and looking at the homepage, it would be great if there were some visual indication as to who their friends are in the grid of faces. My example is a ribbon on the image, but feel free to do whatever you like.
 
-<img src="./_screenshots/homepage_4.png" />
+![homepage_4](https://user-images.githubusercontent.com/91036770/217149299-e9ef7bb8-fa8f-4b13-879e-33b74f9c10b4.png)
 
 ### No Sign in for you!
 
